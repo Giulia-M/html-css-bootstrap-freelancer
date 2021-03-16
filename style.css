@@ -30,9 +30,35 @@
 .portfolio-text {
     padding-top: 20px;
     padding-bottom: 10px;
+    text-align: center;
 }
 .img {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: blueviolet;
+}
+.text-content, .title-content {
+    color: #fff;
+}
+.title-content {
+    text-align: center;
+}
+
+
+
+.star-hr {
+    width: 45%; 
+    display: inline-block;
+    border-bottom: 1px solid #fff; 
+    vertical-align: middle;
+} 
+.star-hr:nth-child(2) {
+    margin-right: 15px;
+}
+
+span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
