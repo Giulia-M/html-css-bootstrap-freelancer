@@ -60,4 +60,14 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
 }
+
+.star-hr {
+    width: 45%;
+  
+    border-bottom: 1px solid black; text-align: center;
+    display: inline-block;
+}
+
