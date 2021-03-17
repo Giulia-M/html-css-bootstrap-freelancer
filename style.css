@@ -39,7 +39,7 @@ div>ul>li>a {
 }
 .line {
     min-width: 50px;
-    border-bottom: 1px solid white; background-color: white;
+    border-bottom: 2px solid white; background-color: white;
     vertical-align: middle;
     display: inline-block;
 }
@@ -54,6 +54,15 @@ div>ul>li>a {
 /* box img */
 .box-img {
     margin: 15px 0;
+}
+.line-dark {
+    min-width: 50px;
+    border-bottom: 2px solid #2d3f51; background-color: #2d3f51;
+    vertical-align: middle;
+    display: inline-block;
+}
+.font-weight {
+    font-weight: 700;
 }
 
 
@@ -78,15 +87,13 @@ div>ul>li>a {
     
 }
 
-.box-img {
-    padding-bottom: 40px;
-}
+
 
 
 .portfolio-text {
     padding-top: 20px;
     padding-bottom: 10px;
-    text-align: center;
+   
 }
 
 .text-content, .title-content {
