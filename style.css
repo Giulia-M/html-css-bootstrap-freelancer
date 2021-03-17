@@ -16,11 +16,15 @@
     color:#fff;
     background-color: #3a546d;
 }
-a:focus {
+/* a:focus {
     outline-style: none;
+} */
+.my-nav .navbar-toggle .icon-bar {
+    background-color: white;
 }
-
-
+.my-nav .navbar-toggle {
+    border: none;
+}
 
 
 
