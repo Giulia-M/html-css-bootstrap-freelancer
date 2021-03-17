@@ -28,6 +28,7 @@ a:focus {
 }
 .box-avatar, .box-about {
     background-color: #1abc9c;  
+    padding-bottom: 20px;
 }
 .my-text {
     color:#fff;
@@ -36,14 +37,11 @@ a:focus {
 div>ul>li>a {
     color: white;
 }
-.line-fff {
-    margin-right: 5px;
-    margin-left: 5px;
-    min-width: 60px;
+.line {
+    min-width: 50px;
+    border-bottom: 1px solid white; background-color: white;
+    vertical-align: middle;
     display: inline-block;
-    background-color: white;
-    border-top: 0.5px solid white;
-    border-bottom: 0.5px solid white;  
 }
 .my-star {
     margin-bottom: 10px;
@@ -53,8 +51,10 @@ div>ul>li>a {
     margin: 0 5px;
     max-width: 25px;
 }
-
-
+/* box img */
+.box-img {
+    margin: 15px 0;
+}
 
 
 
@@ -88,12 +88,7 @@ div>ul>li>a {
     padding-bottom: 10px;
     text-align: center;
 }
-.img {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 15px 0;
-    background-color: blueviolet;
-}
+
 .text-content, .title-content {
     color: #fff;
 }
