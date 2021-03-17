@@ -51,7 +51,14 @@ div>ul>li>a {
     margin: 0 5px;
     max-width: 25px;
 }
-/* box img */
+.color-white {
+    color: white;
+}
+/* box portfolio */
+.box-portfolio {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 .box-img {
     margin: 15px 0;
 }
@@ -65,7 +72,10 @@ div>ul>li>a {
     font-weight: 700;
 }
 
-
+/* box-about */
+.max-width {
+    max-width: 780px;
+}
 
 
 
@@ -96,12 +106,8 @@ div>ul>li>a {
    
 }
 
-.text-content, .title-content {
-    color: #fff;
-}
-.title-content {
-    text-align: center;
-}
+
+
 
 
 
